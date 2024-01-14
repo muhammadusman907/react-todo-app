@@ -1,0 +1,33 @@
+.ant-picker-panel{
+  width: 80% !important;
+  margin: auto;
+  border-radius: 20px !important;
+
+  /* border: solid !important; */
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+:where(.css-dev-only-do-not-override-dkbvqv).ant-picker-calendar .ant-picker-calendar-header {
+  justify-content: center !important;
+}
+:where(.css-dev-only-do-not-override-dkbvqv).ant-picker-calendar.ant-picker-calendar-full .ant-picker-calendar-date-today {
+  background: #cbcbff!important;
+}
+
+:where(.css-dev-only-do-not-override-dkbvqv).ant-picker-calendar.ant-picker-calendar-full .ant-picker-cell-selected .ant-picker-calendar-date .ant-picker-calendar-date-value, :where(.css-dev-only-do-not-override-dkbvqv).ant-picker-calendar.ant-picker-calendar-full .ant-picker-cell-selected:hover .ant-picker-calendar-date .ant-picker-calendar-date-value, :where(.css-dev-only-do-not-override-dkbvqv).ant-picker-calendar.ant-picker-calendar-full .ant-picker-cell-selected .ant-picker-calendar-date-today .ant-picker-calendar-date-value, :where(.css-dev-only-do-not-override-dkbvqv).ant-picker-calendar.ant-picker-calendar-full .ant-picker-cell-selected:hover .ant-picker-calendar-date-today .ant-picker-calendar-date-value {
+  color: black!important;
+}
+/* td heigth */
+
+
+:where(.css-dev-only-do-not-override-dkbvqv).ant-picker-calendar.ant-picker-calendar-full .ant-picker-calendar-date {
+  height: 100px;
+}
+
+/* weeks days  */
+:where(.css-dev-only-do-not-override-dkbvqv).ant-picker-calendar.ant-picker-calendar-full .ant-picker-panel .ant-picker-body th {
+  height:60px ;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
